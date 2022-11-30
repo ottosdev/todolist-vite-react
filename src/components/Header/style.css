@@ -1,0 +1,14 @@
+header {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  border-bottom: 1px solid #1D2939;
+}
+
+header h1 {
+    color: #1D2939;
+}

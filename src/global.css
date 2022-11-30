@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: url(assets/todo.jpg) no-repeat center;
+  pointer-events: none;
+  background-size: cover;
+}
+
+button {
+  cursor: pointer;
+}
